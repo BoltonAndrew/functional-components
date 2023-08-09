@@ -1,11 +1,10 @@
 import styles from "./App.module.css";
+import Parent from "./components/Parent.js";
 
 function App() {
   return (
     <div className={styles.App}>
-      <header>
-        <h1>Functional Components</h1>
-      </header>
+      <Parent />
     </div>
   );
 }
